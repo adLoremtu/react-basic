@@ -2,6 +2,11 @@ import React from "react";
 import "./App.scss";
 import SampleButton from "./components/sample/Button";
 import SampleLink from "./components/sample/Link";
+import PropsTest from "./components/sample/PropsTest";
+
+const name = "ボン";
+const age = 28;
+const isMen = true;
 
 const App = () => {
   return (
@@ -37,6 +42,12 @@ const App = () => {
         {/* === 問題4の解答  start  === */}
         <SampleLink />
         {/* === 問題4の解答  end  === */}
+        <h2>
+          問題5:components/sample/PropsTest.tsxを読み込み、パラメータを渡して要素を表示してください。
+        </h2>
+        {/* === 問題5の解答  start  === */}
+        <PropsTest name={name} age={age} isMen={isMen} />
+        {/* === 問題5の解答  end  === */}
       </div>
     </main>
   );
