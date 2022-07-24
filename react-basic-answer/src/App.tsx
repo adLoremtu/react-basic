@@ -1,14 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.scss";
 import SampleButton from "./components/sample/Button";
 import SampleLink from "./components/sample/Link";
 import PropsTest from "./components/sample/PropsTest";
-
-const name = "ボン";
-const age = 28;
-const isMen = true;
+import StatusTestButton from "./components/sample/StatesTest_props";
+import StatusTestButtonNoProps from "./components/sample/StatesTest_noprops";
 
 const App = () => {
+  const name = "ボン";
+  const age = 28;
+  const isMen = true;
+
+  const [count, setCount] = useState(0);
+  const addCount = () => {
+    setCount((prevState) => prevState + 1);
+  };
+
   return (
     <main className="main">
       <h1 className="App">Reactの基礎振り返り勉強会</h1>
@@ -48,6 +55,14 @@ const App = () => {
         {/* === 問題5の解答  start  === */}
         <PropsTest name={name} age={age} isMen={isMen} />
         {/* === 問題5の解答  end  === */}
+        <h2>
+          問題6:
+          カウントアップのSPAをpropsのみ、statesのみで作成してみましょう。
+        </h2>
+        {/* === 問題6の解答  start  === */}
+        <StatusTestButton count={count} onClick={addCount} />
+        <StatusTestButtonNoProps />
+        {/* === 問題6の解答  end  === */}
       </div>
     </main>
   );
