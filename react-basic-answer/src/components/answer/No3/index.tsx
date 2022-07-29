@@ -1,5 +1,5 @@
 import React from "react";
-import SampleButton from "../components/sample/Button";
+import SampleButton from "../../sample/Button";
 
 /**
  * 問題3:
