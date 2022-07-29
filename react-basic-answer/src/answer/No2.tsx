@@ -13,6 +13,9 @@ import React from "react";
  *     - 幅を300pxに変更します。（width: 300px）
  *   - data-2="data2"
  *     - 高さを200pxに変更します。（height: 200px）
+ *
+ * 【ヒント】
+ * classだけ注意点があります。
  */
 
 const No2 = () => {
