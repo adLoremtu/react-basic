@@ -2,7 +2,7 @@ import React from "react";
 
 /**
  * 問題3:
- *   components/sample/Button.tsxを呼び出し、要素を表示してください。
+ *   components/ui/button/index.tsxを呼び出し、要素を表示してください。
  *
  * 【ヒント】
  * コンポーネントファイルを使う際、2つの手順を踏む必要があります。
