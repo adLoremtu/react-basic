@@ -10,9 +10,9 @@ import React from "react";
  *   - class1
  *     - 背景色を#000に変更します。（background: #000）
  *   - data-1
- *     - 幅を200pxに変更します。（width: 300px）
+ *     - 幅を300pxに変更します。（width: 300px）
  *   - data-2="data2"
- *     - 高さを300pxに変更します。（height: 200px）
+ *     - 高さを200pxに変更します。（height: 200px）
  */
 
 const No2 = () => {
