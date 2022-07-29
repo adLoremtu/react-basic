@@ -1,19 +1,29 @@
 import React from "react";
 
+/**
+ * 問題2:
+ *   下記解答エリア内の要素にid, class, data属性を付与してください。
+ *   正しく付与できるとcssが適用されます。
+ *
+ *   - id1
+ *     - 文字色を#cc0に変更します。（color: #cc0）
+ *   - class1
+ *     - 背景色を#000に変更します。（background: #000）
+ *   - data-1
+ *     - 幅を200pxに変更します。（width: 300px）
+ *   - data-2="data2"
+ *     - 高さを300pxに変更します。（height: 200px）
+ */
+
 const No2 = () => {
   return (
     <>
-      <h2>問題2: 下記要素にid, class, data属性を付与してください。</h2>
-      <ul>
-        <li>id1 → 文字色を#cc0に変更します。</li>
-        <li>class1 → 幅を300px, 高さを200pxに変更します。</li>
-        <li>data-1 → 背景色を#00cに変更します。</li>
-      </ul>
-      {/* === 問題2の解答  start  ===*/}
-      <p id="id1" className="class1" data-1>
+      <h2>問題2:</h2>
+      {/* === 問題2の解答エリア  start  ===*/}
+      <p id="id1" className="class1" data-1 data-2="data2">
         問題2の解答反映要素
       </p>
-      {/* === 問題2の解答  end  ===*/}
+      {/* === 問題2の解答エリア  end  ===*/}
     </>
   );
 };
