@@ -1,5 +1,5 @@
 import React from "react";
-import PropsTest from "../../ui/list/";
+import SampleList from "../../ui/list/";
 
 /**
  * 問題5:
@@ -22,7 +22,7 @@ const No5 = () => {
     <>
       <h2>問題5:</h2>
       {/* === 問題5の解答  start  === */}
-      <PropsTest name={name} age={age} isMen={isMen} />
+      <SampleList name={name} age={age} isMen={isMen} />
       {/* === 問題5の解答  end  === */}
     </>
   );

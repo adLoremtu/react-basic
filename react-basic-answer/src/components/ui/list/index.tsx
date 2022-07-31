@@ -6,7 +6,7 @@ type Props = {
   isMen: boolean;
 };
 
-const PropsTest = (props: Props) => {
+const SampleList = (props: Props) => {
   return (
     <>
       <p>名前：{props.name}</p>
@@ -16,4 +16,4 @@ const PropsTest = (props: Props) => {
   );
 };
 
-export default PropsTest;
+export default SampleList;
