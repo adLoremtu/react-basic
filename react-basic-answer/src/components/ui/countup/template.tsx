@@ -2,6 +2,7 @@ import react, { useState } from "react";
 
 /**
  * propsのtype指定
+ * propsで呼び出し元からパラメータを受け取る際に型定義を行う必要があります。
  */
 type Props = {
   count: number;
@@ -17,7 +18,12 @@ type Props = {
  *
  * 仮にsetCountをクリックした1秒後に実施とし、連打してみた場合の挙動が変わる
  *
+ * // サンプルコード
  * setTimeout(() => {
+ *    // bad code
+ *    setCount(count + 1);
+ *
+ *    // good code
  *    setCount((prevState) => prevState + 1);
  * }, 1000);
  *

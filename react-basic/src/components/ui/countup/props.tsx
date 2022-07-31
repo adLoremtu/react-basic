@@ -1,7 +1,7 @@
 import React from "react";
 
-const StatusTestButton = () => {
+const SampleProps = () => {
   return <button>ここにカウント数を表示します。</button>;
 };
 
-export default StatusTestButton;
+export default SampleProps;
