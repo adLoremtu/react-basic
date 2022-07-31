@@ -1,5 +1,5 @@
 import React from "react";
-import SampleLink from "../../ui/link";
+import SampleLink from "../../ui/link/";
 
 /**
  * components/ui/link/index.tsxを編集し、要素を表示してください。

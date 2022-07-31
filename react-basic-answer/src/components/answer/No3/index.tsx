@@ -1,5 +1,5 @@
 import React from "react";
-import SampleButton from "../../ui/button";
+import SampleButton from "../../ui/button/";
 
 /**
  * 問題3:
