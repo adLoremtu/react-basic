@@ -6,7 +6,12 @@ const SampleState = () => {
     setCount((prevState) => prevState + 1);
   };
 
-  return <button onClick={addCount}>{count.toString()}</button>;
+  return (
+    <>
+      <p>state.tsx</p>
+      <button onClick={addCount}>{count.toString()}</button>
+    </>
+  );
 };
 
 export default SampleState;

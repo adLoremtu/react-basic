@@ -6,7 +6,12 @@ type Props = {
 };
 
 const SampleProps = (props: Props) => {
-  return <button onClick={props.onClick}>{props.count.toString()}</button>;
+  return (
+    <>
+      <p>props.tsx</p>
+      <button onClick={props.onClick}>{props.count.toString()}</button>
+    </>
+  );
 };
 
 export default SampleProps;
