@@ -2,6 +2,7 @@ import React from "react";
 import SampleLink from "../../ui/link/";
 
 /**
+ * 問題4:
  * components/ui/link/index.tsxを編集し、要素を表示してください。
  *
  * 【ヒント】
