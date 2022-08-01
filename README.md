@@ -16,16 +16,25 @@ localhost:3000 が立ち上がり、画面が表示されれば OK です。
 
 ## 勉強会でさわるファイル
 
-- Step1. React の基礎を振り返る
-  - `/react-basic/src/App.tsx`
-  - `/react-basic/src/App.scss`
+基本的に触るのは`/components/answer/`, `/components/ui/`配下になります。
 
-## 勉強会で実施する問題
-
-### Step1. React の基礎を振り返る
-
-- `問題1`にあなたの名前を出力してください。（個人情報が嫌という方はニックネームで OK）
-- `問題2`に下記 id, class, data 属性を付与してください。
-  - id1: 文字色を`#cc0`に変更します。
-  - class1: 幅を`300px`, 高さを`200px`に変更します。
-  - data-1: 背景色を`#00c`に変更します。
+- 問題 1
+  - `/react-basic/src/components/answer/No1/index.tsx`
+- 問題 2
+  - `/react-basic/src/components/answer/No2/index.tsx`
+- 問題 3
+  - `/react-basic/src/components/answer/No3/index.tsx`
+- 問題 4
+  - `/react-basic/src/components/answer/No4/index.tsx`
+  - `/react-basic/src/components/ui/link/index.tsx`
+- 問題 5
+  - `/react-basic/src/components/answer/No5/index.tsx`
+- 問題 6
+  - `/react-basic/src/components/answer/No6/index.tsx`
+  - `/react-basic/src/components/ui/countup/state.tsx`
+  - `/react-basic/src/components/ui/countup/props.tsx`
+- 問題 7
+  - `/react-basic/src/components/answer/No7/index.tsx`
+  - `/react-basic/src/components/ui/button/useEffect.tsx`
+- 問題 8
+  - `/react-basic/src/components/ui/countup/autoCount.tsx`
