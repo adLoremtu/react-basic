@@ -17,6 +17,7 @@ localhost:3000 が立ち上がり、画面が表示されれば OK です。
 ## 勉強会でさわるファイル
 
 基本的に触るのは`/components/answer/`, `/components/ui/`配下になります。
+問題文などは各ファイルに記載してあります。
 
 - 問題 1
   - `/react-basic/src/components/answer/No1/index.tsx`
