@@ -6,12 +6,24 @@ type Props = {
   isMen: boolean;
 };
 
-const SampleList = (props: Props) => {
+/**
+ * /src/components/answer/No5/index.tsxより送られたパラメータを表示させてください。
+ *
+ * 【ヒント】
+ * パラメータを受け取る場合はpropsを引数に指定すると受け取ることができます。
+ *
+ * 【備考】
+ * なお受け取り方は以下のようにすることも可能です。
+ * - const hoge = ({name, age, isMen}) => {}
+ * メリットとしては`props.name`のようにいちいち`props`を書く必要がない。
+ */
+
+const SampleList = () => {
   return (
     <>
-      <p>名前：{props.name}</p>
-      <p>年齢：{props.age}</p>
-      <p>性別：{props.isMen ? "男" : "女"}</p>
+      <p>名前：</p>
+      <p>年齢：</p>
+      <p>性別：</p>
     </>
   );
 };

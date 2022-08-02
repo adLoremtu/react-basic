@@ -2,7 +2,7 @@ import React from "react";
 
 /**
  * 問題5:
- * components/ui/list/index.tsxを呼び出し、要素を表示してください。
+ * components/ui/list/index.tsxを編集して、要素を表示してください。
  *
  * またその際、コンポーネントファイルに下記パラメータを送付するようにしてください。
  * - name: 自分の名前 or あだ名(string)
